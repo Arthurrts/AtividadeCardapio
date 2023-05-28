@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    list-style: none;
+    text-decoration: none;
+}
+
+#fundo{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#lateral{
+    display: flex;
+    float: left;
+    background: #8B0000;
+    height: auto;
+    width: 320px;
+}
+
+#main{
+    float: left;
+    height: auto;
+    width: 879px;
+}
+
+#menu{
+    display: flex;
+    float: right;
+    background: #8B0000;
+    height: auto;
+    width: 320px;
+}
+
+.container{
+    display: flex;
+}
+
+#header1{
+    background: linear-gradient(to bottom, #8B0000 60%, white);
+    padding: 40px 0;
+}
+
+#text-header{
+    text-align: center;
+}
+
+#text h1{
+    font-size: 24px;
+    width: 40%;
+    border: solid;
+    color: white;
+    background-color: #8B0000;
+    border-color: #8B0000;
+    box-shadow: black 2px 4px 10px;
+    border-radius: 40px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#text-main{
+    padding-bottom: 20px;
+}
+
+#table1{
+    font-weight: bold;
+    border: 1px solid #8B0000;
+    border-spacing: 0px;
+    padding: 5px;
+    margin: auto;
+}
+
+#table1 caption{
+    color: #8B0000;
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+#table1 td{
+    color: #8B0000;
+    border: 1px solid #8B0000;
+    padding: 10px 60px;
+}
+
+.obs{
+    text-align: center;
+}
+
+#table1 td.carnes{
+    text-align: center;
+}
+
+#lateral p, #menu p{
+    color: white;
+    text-shadow: black 1px 1px 2px;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#vinho, #filiais{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comidaIMG{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#fim1{
+    text-align: center;
+    background: #8B0000;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    height: 55px;
+}
+
+#fim2{
+    background: #8B0000;
+    display: flex;
+    justify-content: center;
+}
+
+#fim2 p{
+    padding-bottom: 10px;
+    color: White;
+    text-shadow: black 1px 1px 2px;
+    font-size: 18px;
+}

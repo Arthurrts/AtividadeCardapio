@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    list-style: none;
+    text-decoration: none;
+}
+
+.fundo img{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.menu{
+    background-color: #8B0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li{
+    margin-left: 90px;
+}
+
+.menu ul a{
+    color: White;
+    text-shadow: black 1px 1px 2px;
+    padding: 0;
+    margin: 20px 20px;
+    font-size: 18px;
+    display: block;
+}
+
+#container{
+    display: flex;
+}
+
+#main{
+    display: flex;
+    float: left;
+    width: 1200px;
+    height: auto;
+    background: linear-gradient(to bottom, #8B0000, white 30%);
+}
+
+#galeria{
+    display: flex;
+    float: right;
+    width: 319px;
+    height: auto;
+    background: #8B0000;
+}
+
+.conteudo{
+    padding: 0 60px;
+    padding-bottom: 60px;
+}
+
+.imagem img{
+    margin: auto;
+    display: block;
+}
+
+.conteudo p{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+#galeria p{
+    color: white;
+    text-shadow: black 1px 1px 2px;
+    font-size: 20px;
+}
+
+#comida{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comidaIMG{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#fim{
+    background: #8B0000;
+    display: flex;
+    justify-content: center;
+}
+
+#fim p{
+    padding: 10px;
+    color: White;
+    text-shadow: black 1px 1px 2px;
+    font-size: 18px;
+}
+
